@@ -1,0 +1,12 @@
+maya-8B:
+  # - Prompt template used for every example
+  prompt: "Extract the details, facts, contents of Marathi handwritten text from the image, and transalte the extracted info to English language. Show details of the full document, dates, names of persons, locations and other important details."
+  # - Generation hyperparameters
+  temperature: 0.7
+  repetition_penalty: 1.2
+  top_p: 0.9
+  top_k: 50
+  do_sample: true
+  max_new_tokens: 512
+  new_column: "maya_8b_prompt2"
+  mm_use_im_start_end: True

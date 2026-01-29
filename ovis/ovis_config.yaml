@@ -1,0 +1,13 @@
+ovis2-34B-GPTQ-Int4: 
+  prompt: "Translate the handwritten text from the image of a document witten in Marathi language to english. The translation should cover each and every detail of the text in the image."
+  temperature: None
+  repetition_penalty: 14.4
+  top_p: 0.9
+  new_column: "ovis2-34B-GPTQ-Int4-prompt3" 
+
+ovis2-16B:
+  prompt: "Extract the details, facts, contents of Marathi handwritten text from the image, and transalte the extracted info to English language. Show details of the full document, dates, names of persons, locations and other important details."
+  temperature: None
+  repetition_penalty: 14.4
+  top_p: 0.9
+  new_column: "ovis2-16B-prompt2" 
